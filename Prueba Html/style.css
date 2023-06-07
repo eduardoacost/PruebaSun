@@ -1,0 +1,88 @@
+.container {
+    background-color: #999999;
+  }
+    
+    .header {
+        background-color: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .logo {
+        width: 290px;
+        
+      }
+      .flag {
+        width: 30px; /* Ajusta el ancho de acuerdo a tus necesidades */
+        margin-left: 10px;
+      }
+      
+      .text-right {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      .text-right span {
+        font-family: 'Poppins', sans-serif;
+        margin-left: 5px;
+        margin-right: 10px;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin-right: 30px;
+        margin-left: 130px;
+        display: flex;
+      }
+      
+      nav li {
+        margin-right: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+      }
+      .content-container {
+        height: auto;
+        padding: 80px;
+        border: 1px solid #999999;
+        border-radius: 0;
+        
+        
+      }
+      
+      .content {
+        margin-top: 5px;
+        background-color: white;
+        max-height: 400px;
+        overflow-y: auto;
+        position: relative;
+      }
+
+        .cab {
+            background-color: #bec405;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #ccc;
+            font-size: 24px;
+            margin-right: 40px;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
